@@ -1,0 +1,10 @@
+//GET http://localhost:3000/users
+
+
+POST http://localhost:3000/create_user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Ojangole",
+    "age": 10
+}
